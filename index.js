@@ -84,8 +84,8 @@ function main() {
         var linkCrack='Link Crack: '+'https://teamkong.tk/forza-horizon-5-full-online-fix-files/'+'\n';
         var linkMagnet='Link Magnet: '+magnet;
         var messaggio='Aggiornamento Forza Horizon 5: '+release_version+'\n'+linkCrack+linkMagnet;
-        const telegram_token = "5683731059:AAGa3rNm7yc_HtVfH4HghSofb6lE1jVVdRo";
-        const chatId = "-795954263";
+        const telegram_token = "your telegram token";
+        const chatId = "your chat id";
         fetch("https://api.telegram.org/bot" + telegram_token + "/sendMessage?chat_id=" + chatId + "&text=" + messaggio + "", {
             method: "GET"
         });
